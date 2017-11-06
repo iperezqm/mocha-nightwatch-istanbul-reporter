@@ -1,0 +1,15 @@
+{
+  "name": "mocha-nightwatch-istanbul-reporter",
+  "version": "0.0.1",
+  "description": "Mocha reporter for istanbul coverage in nightwatch.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "uuidv4": "^0.5.0"
+  }
+}
