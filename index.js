@@ -41,7 +41,7 @@ function NightwatchIstanbul(runner) {
   Base.call(this, runner)
 
   runner.on('test end', function(test) {
-    console.log(test.title);
+    console.log(test.title + '\n');
 
     var client = this.test.ctx._runnable._nightwatch['@client'];
 
