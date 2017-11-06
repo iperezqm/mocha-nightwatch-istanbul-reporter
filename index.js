@@ -48,7 +48,7 @@ function NightwatchIstanbul(runner) {
     client.api.execute(function() {
       return window.__coverage__;
     }, [], function(response) {
-      fs.writeFileSync('.nyc_output/' + uuid().replace('-', '') + '.json', JSON.stringify(response.value));
+      fs.writeFileSync('.nyc_output/' + uuid().replace(/-/g, '') + '.json', JSON.stringify(response.value));
     });
   })
 }
